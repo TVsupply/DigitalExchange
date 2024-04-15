@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⭐⭐⭐⭐⭐(2544)</title>
+</head>
+<body>
+
+<script>
+// Function to redirect to WhatsApp
+function redirectToWhatsApp() {
+  // Replace the phone number with your own
+  var phoneNumber = '212778839020';
+  var message = 'Test 👋🏻';
+
+  // Construct the WhatsApp URL
+  var whatsappURL = 'https://api.whatsapp.com/send/?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+  // Redirect the page to the WhatsApp URL
+  window.location.href = whatsappURL;
+}
+
+// Automatically redirect to WhatsApp when the page loads
+window.onload = function() {
+  redirectToWhatsApp();
+}
+</script>
+
+
+
+</body>
+</html>
